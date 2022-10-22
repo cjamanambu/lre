@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/therjnxf/lreevent.com/
+    - /bin/cp -R * $DEPLOYPATH
